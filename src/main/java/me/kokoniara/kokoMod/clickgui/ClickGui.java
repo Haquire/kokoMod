@@ -18,7 +18,7 @@ public class ClickGui extends GuiScreen {
 		int frameX = 5;
 		for(Category category : Category.values()) {
 			Frame frame = new Frame(category);
-			frame.setX(frameX);
+			frame.setX(frame);
 			frames.add(frame);
 			frameX += frame.getWidth() + 1;
 		}
